@@ -1,0 +1,59 @@
+slice_name: Receita por canal atribuído
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  viz_type: pie
+  groupby:
+  - canal
+  metric:
+    aggregate: SUM
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: receita_total
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 10
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: FLOAT
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: Receita
+    optionName: metric_34i2hxdmo9_3fd3m3ehkab
+    sqlExpression: null
+  adhoc_filters: []
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 1
+  show_legend: false
+  legendType: scroll
+  legendOrientation: bottom
+  legendMargin: null
+  label_type: key_percent
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 62
+  donut: true
+  innerRadius: 30
+  extra_form_data: {}
+query_context: null
+cache_timeout: null
+uuid: 2b80cb76-0431-4053-b58f-ddeb67e02c5d
+version: 1.0.0
+dataset_uuid: aa46751f-c97c-401a-a1ac-00fc4a4a8923

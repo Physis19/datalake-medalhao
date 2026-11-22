@@ -1,0 +1,37 @@
+slice_name: Top 10 produtos por receita
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  viz_type: table
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup: {}
+  metrics: []
+  all_columns:
+  - produto
+  - categoria
+  - unidades
+  - receita
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols:
+  - '["receita", false]'
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  include_search: false
+  show_cell_bars: false
+  align_pn: false
+  color_pn: true
+  allow_rearrange_columns: false
+  conditional_formatting: []
+  extra_form_data: {}
+query_context: null
+cache_timeout: null
+uuid: cfeeb784-7d99-445c-b655-422afe99f685
+version: 1.0.0
+dataset_uuid: f780fea2-4adc-423b-a394-befac99ef653

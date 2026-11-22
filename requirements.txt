@@ -1,0 +1,17 @@
+# ETL
+pandas==2.3.3
+numpy==2.3.5
+pyarrow==23.0.1
+
+# S3 (RustFS)
+boto3==1.43.120
+
+# Motor analítico: manter igual à versão do superset/Dockerfile
+duckdb==1.4.5
+
+# Dados sintéticos: versão fixa, porque outra muda os dados gerados
+faker==40.1.0
+
+# Utilitários
+python-dotenv==1.2.2
+pytest==9.0.3
